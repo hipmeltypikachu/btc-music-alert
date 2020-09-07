@@ -3,7 +3,7 @@
 }
 
 html {
-  background: black url(background.jpg) top center no-repeat;
+  background: black url(background.gif) bottom center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
@@ -64,6 +64,13 @@ select {
   font-size: 1.5em;
   padding: 5px;
   vertical-align: bottom;
+}
+
+select, option {
+  background: white;
+  color: black;
+  border: 1px solid white;
+  box-shadow: 0px 2px 3px black;
 }
 
 input[type="submit"] {
